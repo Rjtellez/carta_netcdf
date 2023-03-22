@@ -7,7 +7,7 @@ import xarray as xr
 # ax.stock_img()
 # plt.show()
 
-dset = xr.open_dataset("es ")
+dset = xr.open_dataset("data/agosto.nc")
 
 dset['tp'].plot()
 
